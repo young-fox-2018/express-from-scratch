@@ -37,24 +37,20 @@
     <br>
     <br>
     <div class="container">
-        <h2>Add New Student</h2>
-        <form action="/student" method="post">
-
+        <h2>Your data</h2>
+        <form>
             <div class="form-group">
                 <label for="first_name">first_name: </label>
-                <input type="text" name="first_name" class="form-control" aria-describedby="emailHelp">
+                <input type="text" name="first_name" class="form-control" aria-describedby="emailHelp" value=<%=data.first_name%>>
             </div>
             <div class="form-group">
                 <label for="last_name">last_name: </label>
-                <input type="text" name="last_name" class="form-control" aria-describedby="emailHelp">
+                <input type="text" name="last_name" class="form-control" aria-describedby="emailHelp" value=<%=data.last_name%>>
             </div>
             <div class="form-group">
                 <label for="email">email: </label>
-                <input type="text" name="email" class="form-control" aria-describedby="priceHelp">
+                <input type="text" name="email" class="form-control" aria-describedby="priceHelp" value=<%=data.email%>>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-
-
         </form>
     </div>
     <div style="height: 100px"></div>
@@ -63,7 +59,7 @@
     <div class="footer">
         <footer> &copy; hacktiv8 - XavierFox </footer>
         <marquee behavior="scroll" direction="">
-            <h3>🔥🔥🔥 GOOD LUCK 🔥🔥🔥</h3>
+
         </marquee>
     </div>
 </body>

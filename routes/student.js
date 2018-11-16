@@ -12,7 +12,7 @@ router.post('/', (req, res) => {
     }
     console.log(data);
 
-    res.render('data.ejs', data)
+    res.render('data.ejs', { data })
 })
 
 
