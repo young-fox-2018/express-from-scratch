@@ -4,8 +4,9 @@ routes.get('/', (req, res) => {
     res.render('student.ejs');
 });
 
-routes.post('/', (req, res) => {
-    res.send(req.body);
+routes.post('/data', (req, res) => {
+    let student = req.body;    
+    res.render('studentData.ejs', {student: student});
 });
 
 module.exports = routes;
