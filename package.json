@@ -1,0 +1,26 @@
+{
+  "name": "express-from-scratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/young-fox-2018/express-from-scratch.git"
+  },
+  "keywords": [],
+  "author": "Desy R. Armariena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/young-fox-2018/express-from-scratch/issues"
+  },
+  "homepage": "https://github.com/young-fox-2018/express-from-scratch#readme"
+}
